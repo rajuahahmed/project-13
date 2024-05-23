@@ -15,12 +15,12 @@
               <a class="navbar-brand" href="#">
                 <img src="images/logo.png" alt="">
               </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-                  <input type="text" class="form-control rounded-pill border-0 ms-5" style="width:480px" placeholder="search">
-                  <div class="collapse navbar-collapse">               
-                <ul class="navbar-nav ms-3 fw-bold mb-4">
+              <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
+                  <input type="text" class="form-control rounded-pill border-0 ms-4" style="width:480px" placeholder="search">                                
+                  <ul class="navbar-nav ms-3 fw-bold mb-4">
                   <li class="nav-item ms-3" style="font-size: 18px;">
                     <a class="nav-link active text-body-tertiary"href="#">Home</a>
                   </li>
@@ -37,33 +37,41 @@
               </div>
           </nav>
     </header>
-    <main class=" shoess d-flex mt-5">
-        <div>
-          <h1 class="mt-3 pb-2 p-5 fw-bold" style="font-size: 50px;">Mi LED TV 4A PRO 32</h1>
-          <p class="w-75 ps-5 text-body-tertiary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quo, totam perspiciatis sed iste soluta magnam maxime tempore voluptatum rem consequuntur nobis at voluptate distinctio, aliquam quam. Consequatur, natus quas.</p>
-          <p class="ps-5 text-danger fs-2">$1289</p>
-          <div class="ps-5 mt-5">
-            <button class=" p-3 text-white border-0 fs-3 rounded bg-danger">BUY NOW <i class="fa-solid fa-arrow-right"></i></button>
+
+
+    <!-- main top area -->
+
+
+    <main class="row shoess mt-5">
+        
+          <div class="col-lg-8">
+            <h1 class="mt-3 pb-2 p-5 fw-bold" style="font-size: 50px;">Mi LED TV 4A PRO 32</h1>
+            <p class="w-75 ps-5 text-body-tertiary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quo, totam perspiciatis sed iste soluta magnam maxime tempore voluptatum rem consequuntur nobis at voluptate distinctio, aliquam quam. Consequatur, natus quas.</p>
+            <p class="ps-5 text-danger fs-2">$1289</p>
+            <div class="ps-5 mt-5">
+              <button class=" p-3 text-white border-0 fs-3 rounded bg-danger">BUY NOW <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
           </div>
-        </div>
-          <div class="mt-3 p-5">
-            <img src="images/Image 6 2.png" alt="logo">
-          </div>
+            <div class="col-lg-4 mt-3 p-5">
+              <img src="images/Image 6 2.png" alt="logo">
+            </div>
+        
       </main>
       <h2 class="p-3 fw-bold fs-1">Categories</h2>
-      <div class="d-flex justify-content-evenly">
-        <div class="col-lg-4 space d-flex bg-danger justify-content-between">
-          <p class="p-4 fs-2 ms-4 text-white">Watch</p>
-          <img class="h-75 mt-3 me-5" src="images/trzcacak 1.png" alt="">
-        </div>
-        <div class="col-lg-4 space d-flex bg-info justify-content-between">
-          <p class="p-4 fs-2 ms-4 text-white">Watch</p>
-          <img class="h-75 mt-3 me-5" src="images/1214084-backpack-png-image-backpack-png-2000_2000 1.png" alt="">
-        </div>
-        <div class="col-lg-4 space d-flex bg-success justify-content-between">
-          <p class="p-4 fs-2 ms-4 text-white">Watch</p>
-          <img class="h-75 mt-4 me-5" src="images/trzcacak 2.png" alt="">
-        </div>
+      <div class="row">
+       
+          <div class="col-lg-4 mb-5 space d-flex me-3 ms-3 bg-danger justify-content-between">
+            <p class="p-4 fs-2 ms-4 text-white">Watch</p>
+            <img class="h-75 mt-3 me-5" src="images/trzcacak 1.png" alt="">
+          </div>
+          <div class="col-lg-4 mb-5 ms-3 space d-flex me-4 bg-info justify-content-between">
+            <p class="p-4 fs-2 ms-4 text-white">Watch</p>
+            <img class="h-75 mt-3 me-5" src="images/1214084-backpack-png-image-backpack-png-2000_2000 1.png" alt="">
+          </div>
+          <div class="col-lg-4 space ms-3 d-flex bg-success justify-content-between">
+            <p class="p-4 fs-2 ms-4 text-white">Watch</p>
+            <img class="h-75 mt-4 me-5" src="images/trzcacak 2.png" alt="">
+          </div>
       </div>
 
 
@@ -86,7 +94,7 @@
             <a href="#" class="btn btn-dark fs-3">BUY NOW <i class="fa-solid fa-arrow-right"></i></a>
           </div>
         </div>
-        <div class="card mt-4 text-center border-0" style="width: 20rem;">
+        <div class="card mt-4 ms-5 text-center border-0" style="width: 20rem;">
           <img src="images/pngfuel (2).png" class="card-img-top fs-3" alt="img">
           <div class="card-body">
             <h5 class="card-title fw-bold fs-3">Reebok Dart Men's Shoes</h5>
@@ -95,7 +103,7 @@
             <a href="#" class="btn btn-dark fs-3">BUY NOW <i class="fa-solid fa-arrow-right"></i></a>
           </div>
         </div>
-        <div class="card mt-4 me-5 text-center border-0" style="width: 20rem;">
+        <div class="card mt-4 me-2 ms-5 text-center border-0" style="width: 20rem;">
           <img src="images/pngfuel (1).png" class="card-img-top" alt="img">
           <div class="card-body">
             <h5 class="card-title fw-bold fs-3">Reebok Dart Men's Shoes</h5>
@@ -126,7 +134,7 @@
             <a href="#" class="btn btn-dark fs-3">BUY NOW <i class="fa-solid fa-arrow-right"></i></a>
           </div>
         </div>
-        <div class="card mt-5 text-center border-0" style="width: 20rem;">
+        <div class="card mt-5 ms-5 text-center border-0" style="width: 20rem;">
           <img src="images/pngfuel (3).png" class="card-img-top" alt="img">
           <div class="card-body">
             <h5 class="card-title fw-bold fs-3">Reebok Dart Men's Shoes</h5>
@@ -135,7 +143,7 @@
             <a href="#" class="btn btn-dark fs-3">BUY NOW <i class="fa-solid fa-arrow-right"></i></a>
           </div>
         </div>
-        <div class="card mt-5 me-5 text-center border-0" style="width: 20rem;">
+        <div class="card mt-5 me-2 ms-5 text-center border-0" style="width: 20rem;">
           <img src="images/pngfuel (3).png" class="card-img-top" alt="img">
           <div class="card-body">
             <h5 class="card-title fw-bold fs-3">Reebok Dart Men's Shoes</h5>
@@ -150,9 +158,9 @@
       <h2 class="text-center fw-bold pt-5" style="margin-top: 200px;">LET'S STAY IN TOUCH</h2>
     <P class="text-center">Get updates on sales specials and more</P>
     </div>
-    <div class="text-center fs-1">
-      <input class="border-0 fs-2" type="text" placeholder="Enter your email">
-    <button class="text-white bg-danger fs-5 p-3" style="width: 200px;">Send</button>
+    <div class="text-center">
+      <input class="border-0 fs-3" type="text" placeholder="Enter your email">
+    <button class="text-white bg-danger fs-5 p-1" style="width: 100px;">Send</button>
     </div>
     <div class="search">
     <form>
